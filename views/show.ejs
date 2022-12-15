@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head.ejs') %>
+</head>
+<body>
+  <div class="container">
+    <h1><%= budgetIndex[budgetData].name %></h1>
+      <form action="/">
+        <input type="submit" value="Back">
+      </form>  
+    <p><strong>date</strong></p>
+      <p><%= budgetIndex[budgetData].date %></p>
+    <p><strong>name</strong></p>
+      <p><%= budgetIndex[budgetData].name %></p>
+    <p><strong>from</strong></p>
+      <p><%= budgetIndex[budgetData].from %></p>
+    <p><strong>amount</strong></p>
+      <p><%= budgetIndex[budgetData].amount %></p>
+    <p><strong>tags</strong></p>
+      <p><%= budgetIndex[budgetData].tags %></p>
+  </div>
+</body>
+</html>

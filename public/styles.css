@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(37, 88, 131);
+    color: gray;
+}
+.positive{
+    color: orange;
+}
+.negative{
+    color: blue;
+}
+.nuetral{
+    color: red;
+}
